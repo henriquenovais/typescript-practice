@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/henriquenovais/typescript-practice/issues"
   },
-  "homepage": "https://github.com/henriquenovais/typescript-practice#readme"
+  "homepage": "https://github.com/henriquenovais/typescript-practice#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint": "^8.26.0",
+    "eslint-config-xo": "^0.42.0",
+    "eslint-config-xo-typescript": "^0.53.0",
+    "eslint-plugin-react": "^7.31.10",
+    "typescript": "^4.8.4"
+  }
 }
