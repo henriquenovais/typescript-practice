@@ -8,7 +8,7 @@
 				"$tsc"
 			],
 			"group": "build",
-			"label": "tsc: build - src/tsconfig.json"
+			"label": "npx tsc --build tsconfig.json"
 		},
 		{
 			"type": "typescript",
@@ -17,7 +17,7 @@
 				"$tsc"
 			],
 			"group": "build",
-			"label": "tsc: build - tsconfig.json"
+			"label": "npx tsc --build tsconfig.json"
 		}
 	]
 }

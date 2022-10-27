@@ -15,27 +15,18 @@
     enum
     tuple
 */
-
-console.log("Hello World!")
-
-let age: number = 20;
-let sales = 123_456_789;
-
+console.log("Hello World!");
+var age = 20;
+var sales = 123456789;
 if (age < 50) {
     age += 50;
 }
-
-function testfunc(income: number, testnumber: number = 2022): number {
+function testfunc(income, testnumber) {
+    if (testnumber === void 0) { testnumber = 2022; }
     income = income + testnumber;
     return 2022;
 }
-
-function main(){
-    console.log("Hello World!")
+function main() {
+    console.log("Hello World!");
 }
-
 main();
-
-
-
-
