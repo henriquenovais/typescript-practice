@@ -34,6 +34,18 @@ function main(){
     console.log("Hello World!")
 }
 
+let school: {
+    readonly id: number,
+    name: string,
+    numberOfStudents: number,
+    numberOfTeachers?: number
+} = {
+    id: 1,
+    name: "awesome cool school",
+    numberOfStudents: 59
+}
+
+
 main();
 
 
